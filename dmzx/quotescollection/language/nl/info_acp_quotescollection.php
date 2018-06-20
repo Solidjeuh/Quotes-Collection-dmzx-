@@ -3,7 +3,7 @@
 *
 * @package phpBB Extension - Quotes Collection
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
-* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
+* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_DM_QC'							=> 'DM Citaten Collectie',
 	'ACP_DM_QC_CONFIG'					=> 'Configuratie',
-	'ACP_DM_QC_RELEASE'					=> 'Citaten vrijgeven',
+	'ACP_DM_QC_RELEASE'					=> 'Citaten goedkeuren',
 	'ACP_DM_QC_EDIT'					=> 'Bewerk citaten',
 	//Log
 	'LOG_DM_QC_CONFIG_SETTINGS'			=> '<strong>DM Citaten Collectie geupdate</strong>',
@@ -48,5 +48,5 @@ $lang = array_merge($lang, array(
 	'LOG_ADMIN_QUOTE_ADDED'				=> '<strong>Citaat toegevoegd</strong>',
 	'LOG_ADMIN_QUOTE_EDITED'			=> '<strong>Citaat nr. %s bewerkt</strong>',
 	'LOG_ADMIN_QUOTE_DELETED'			=> '<strong>Citaat nr. %s verwijderd</strong>',
-	'LOG_ADMIN_QUOTE_RELEASED'			=> '<strong>Citaat nr. %s vrijgegeven</strong>',
+	'LOG_ADMIN_QUOTE_RELEASED'			=> '<strong>Citaat nr. %s goedgekeurd</strong>',
 ));
